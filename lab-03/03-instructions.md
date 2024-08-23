@@ -1,4 +1,5 @@
 # Lab 03 - AWS Setup
+
 In this lab we'll install and configure the AWS CLI. In so doing, we'll make sure that we have a proper set of AWS credentials. Enjoy!
 
 > NOTE: This lab requires that you have an Amazon AWS account. You can create one here: https://aws.amazon.com/. 
@@ -6,6 +7,7 @@ In this lab we'll install and configure the AWS CLI. In so doing, we'll make sur
 > NOTE: I recommend creating a new and separate IAM user for the labs in this repository. See this link for details: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html
 
 ## Install the AWS CLI
+
 For instructions on installing the AWS command line interface on your platform go to:
 
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
@@ -17,15 +19,19 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 When finished run the `aws --version` command to verify that the AWS CLI is installed.
 
 ## Create a New AWS Access Key
+
 - Login to your AWS account console. https://console.aws.amazon.com 
 - Click on your user account on the upper right.
 - Click on Security Credentials and scroll down to "Access Keys".
-- Create a new access key using the Command Line Interface (CLI) option. Copy and paste the access key and secret access key somewhere safe, or download the .csv file and store it in a safe place. 
+- Create a new access key using the Command Line Interface (CLI) option. 
+- Copy and paste the access key and secret access key somewhere safe, or download the .csv file and store it in a safe place.
+
 > NOTE: Once the Key is created you will no longer be able to see the secret key in the console. Be sure to copy it immediately and **SHOW IT TO NO ONE!** .
 
 > NOTE: See this link for more about creating access keys: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html
 
 ## Configure the AWS CLI
+
 Open a terminal and issue the following command:
 
 `aws configure`
@@ -39,6 +45,7 @@ That completes the process for the AWS CLI credentials and configuration. With T
 > NOTE: Be sure to click "Done" or "Close" to complete the key creation process in the AWS console.
 
 ## View your credentials file 
+
 This file (credentials) is stored in a hidden directory within your home directory:
 
 - in Linux/Mac:   ~/.aws  

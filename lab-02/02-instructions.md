@@ -5,7 +5,7 @@
 - First, make sure that you have an existing .bashrc or .zshrc file. 
   
   If not, create one, for example:
-    
+
     `touch ~/.bashrc`
 
 - Install autocomplete:
@@ -17,6 +17,7 @@
 > Note: This is very helpful for Bash, but not quite as necessary for Fish or ZSH
 
 ## (Optional) Install a VSCode Terraform extension
+
 This can be done directly within VSCode or from one of the following:
 
 - Official Hashicorp extension:
@@ -28,6 +29,7 @@ This can be done directly within VSCode or from one of the following:
   https://marketplace.visualstudio.com/items?itemName=4ops.terraform
 
 ## Examine the help system
+
 First, analyze the main help command:
 
 `terraform -help`
@@ -51,9 +53,11 @@ Now, learn more about a subcommand.
 ---
 
 ## (Optional) Configure Vim
+
 If you use Vim, you might want to consider the following:
 
 ### Syntax Highlighting With Vim Polyglot:
+
 Without some type of syntax highlighting, file displayed in Vim will simply be all white text. This can be stressful on the eyes. 
 
 One way to alleviate this is to use vim-polyglot.
@@ -101,7 +105,7 @@ For example, vim-vaultproject or vim-hashicorp-tools (which has multiple HashiVi
 
 You can install these as typical Vim packages or with vim-pathogen: https://github.com/tpope/vim-pathogen
 
-### More Vim modifications.
+### More Vim modifications
 
 You might also wish to add the following to your .vimrc file:
 
