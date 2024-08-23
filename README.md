@@ -5,6 +5,7 @@
 https://prowse.tech
 
 ## Introduction
+
 Hello and Welcome!
 
 This repository and corresponding live event are designed to teach the basics of Terraform and prepare you to use it in the field.
@@ -17,6 +18,7 @@ If you are interested in learning more about Terraform, see my complete video co
 - On [InformIT](https://click.linksynergy.com/link?id=g%2f%2f2PZbywdw&offerid=145238.248089780138195397&bids=145238.248089780138195397&bids=145238.248089780138195397&type=2&murl=https%3a%2f%2fwww.pearsonitcertification.com%2ftitle%2f9780138195397&)
 
 ## Recommendations
+
 To follow along with me I suggest you have the following ready:
 
 - A Linux virtual machine (Recommended: Debian, Ubuntu Desktop, or Fedora workstation) with the following:
@@ -41,8 +43,8 @@ To follow along with me I suggest you have the following ready:
 
 - Two or more monitors (or a second system) to display additional resources
 
-
 ## Contact information
+
 I hope you enjoy the webinar. If you have any questions you can contact me at:
 
 - Discord server: https://discord.gg/mggw8VGzUp

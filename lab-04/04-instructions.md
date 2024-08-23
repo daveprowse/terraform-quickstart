@@ -1,4 +1,5 @@
 # Lab 04 - First Configuration (AWS)
+
 In this lab you will create a basic instance on AWS. You will need an AWS account. It's recommended to create a new IAM user that you can test with during these labs (one with admin rights and console access). 
 
 Let's go!

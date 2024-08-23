@@ -1,5 +1,5 @@
 resource "aws_instance" "lab_05" {
-  ami           = "ami-097a2df4ac947655f"
+  ami           = "ami-085f9c64a9b75eed5"
   instance_type = "t2.micro"
   key_name      = "aws_key"
   vpc_security_group_ids = [
@@ -8,8 +8,6 @@ resource "aws_instance" "lab_05" {
     aws_security_group.sg_http.id
   ]
   
-  user_data = file("../scripts/apache-mkdocs.yaml")
-
   tags = {
     Name                  = "Lab_05"
     Vanquisher_of_Gothmog = "Ecthelion"
@@ -20,6 +18,7 @@ resource "aws_instance" "lab_05" {
 resource "aws_key_pair" "deployer" {
   key_name   = "aws_key"
   public_key = "ssh-ed25519 AAAA-etc..."
+    # Not a real key!
 }
 
 resource "aws_security_group" "sg_ssh" {
