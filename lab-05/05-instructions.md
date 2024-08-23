@@ -62,6 +62,7 @@ You will need openssh or another SSH tool installed.
 Using the information that was outputted, SSH into your instance.
 
 For example, you might do something similar to this:
+
 `ssh -i "../keys/aws_key" ubuntu@<ip_address>`
 
 > NOTE: If you were to look at the AWS console and view the SSH option, it would show "aws_key.pem" but the .pem extension will not work because we created a standard openssh key pair, not an AWS key pair.
