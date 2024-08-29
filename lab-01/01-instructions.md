@@ -24,7 +24,8 @@ If you have any issues, ASK QUESTIONS!
 
 > Note: Additional Terraform installation walk-throughs can be found [here](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli).
 
-## Verify that Terraform is installed and view the version.
+## Verify that Terraform is installed and view the version
+
 `terraform version` 
 
 or
