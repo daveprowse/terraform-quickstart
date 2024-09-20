@@ -1,10 +1,10 @@
 # Lab 01 - Install Terraform
 
-Welcome to the first lab! 
+Welcome to the first lab!
 In this lab you will install the Terraform CLI on to your system. 
 Remember, in this course, I am demonstrating on a Debian Linux virtual machine. Let's go!
 
-## Install Terraform from Hashicorp:
+## Install Terraform from Hashicorp
 
 **Option #1** - Install using your package manager.
 https://developer.hashicorp.com/terraform/install
@@ -24,9 +24,9 @@ If you have any issues, ASK QUESTIONS!
 
 > Note: Additional Terraform installation walk-throughs can be found [here](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli).
 
-## Verify that Terraform is installed and view the version
+## Verify that Terraform is Installed and View the Version
 
-`terraform version` 
+`terraform version`
 
 or
 
@@ -39,16 +39,17 @@ or
 
 - go to the current version > then platform
 
-- Copy the binary with either: 
+- Copy the binary with either:
   - `curl -Lo ./terraform.zip  <HTTP_URL>`
   - or  
-  - `wget <HTTP_URL>` 
+  - `wget <HTTP_URL>`
 
 - Check with sha256sum
   - Download the checksums file.
   - Run the command `sha256sum <filename.zip>`
-  - `cat` the checksum file
-  - Compare the two checksums and make sure they match
+  - `cat` the checksum file:
+    - Manually compare the two checksums and make sure they match
+    - or, compare with `sha256sum -c <terraform{ver}SHA256SUMS>`
 
 - Rename to terraform.zip if you used `wget`.
 - Unzip: `unzip terraform.zip`
