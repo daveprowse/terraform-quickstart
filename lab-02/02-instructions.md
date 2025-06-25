@@ -2,9 +2,9 @@
 
 ## Install Terraform autocomplete
 
-- First, make sure that you have an existing .bashrc or .zshrc file. 
+- First, make sure that you have an existing .bashrc or .zshrc file.
   
-  If not, create one, for example:
+  If not, create one, for example, for Bash:
 
     `touch ~/.bashrc`
 
@@ -14,7 +14,7 @@
 
 - Restart the shell
 
-> Note: This is very helpful for Bash, but not quite as necessary for Fish or ZSH
+> Note: This is very helpful for Bash, but not quite as necessary for Fish or ZSH as they incorporate a lot of auto-completion already.
 
 ## (Optional) Install a VSCode Terraform extension
 
