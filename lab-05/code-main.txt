@@ -1,6 +1,6 @@
 resource "aws_instance" "lab_05" {
   ami           = "ami-085f9c64a9b75eed5"
-  instance_type = "t2.micro"
+  instance_type = "t3.micro"
   key_name      = "aws_key"
   vpc_security_group_ids = [
     aws_security_group.sg_ssh.id,
@@ -36,6 +36,9 @@ resource "aws_security_group" "sg_ssh" {
     to_port     = 0
   }
 }
+
+# Note the older style security groups.
+# See the Terraform Registry for the latest code for AWS security groups.
 
 resource "aws_security_group" "sg_https" {
   ingress {

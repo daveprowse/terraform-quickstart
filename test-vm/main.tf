@@ -9,7 +9,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 5.00"
+      version = "~> 6.00"
     }
   }
 
@@ -23,7 +23,7 @@ provider "aws" {
 resource "aws_instance" "test_instance" {
   ami           = "ami-0b40807e5dc1afecf"
     # Note that this is a Debian 12 AMI stored in Ohio (us-east-2)
-  instance_type = "t2.micro"
+  instance_type = "t3.micro"
   tags = {
     Name = "TEST INSTANCE! DESTROY ME WHEN DONE!!"
   }
